@@ -1,0 +1,50 @@
+ul.list-wrap {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+ul.list-wrap li:first-child {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+ul.list-wrap li span > div, ul.list-wrap li label {
+  cursor: pointer;
+  line-height: 25px;
+  font-size: 16px;
+}
+
+.c-custom {
+  display: inline-block;
+  border-radius: 0;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid #c6c6c6;
+  font-size: 1px;
+  height: 15px;
+  margin: 0 4px 0 1px;
+  outline: 0;
+  position: relative;
+  text-align: left;
+  vertical-align: text-bottom;
+  width: 15px;
+}
+.c-custom .c-box {
+  display: block;
+  height: 19px;
+  outline: 0;
+  width: 19px;
+  left: 1px;
+  position: relative;
+  top: -1px;
+}
+
+.c-custom-selected .c-box {
+  background: url(//ssl.gstatic.com/ui/v1/menu/checkmark.png) no-repeat -5px -3px;
+  background-image: url(//ssl.gstatic.com/ui/v1/menu/checkmark.png) 1x, url(//ssl.gstatic.com/ui/v1/menu/checkmark_2x.png) 2x;
+}
+
+.c-custom-partly-selected .c-box {
+  background: url(//ssl.gstatic.com/ui/v1/menu/checkmark-partial.png) no-repeat -5px -3px;
+  background-image: url(//ssl.gstatic.com/ui/v1/menu/checkmark-partial.png) 1x, url(//ssl.gstatic.com/ui/v1/menu/checkmark-partial_2x.png) 2x;
+}
+
+/*# sourceMappingURL=style.css.map */

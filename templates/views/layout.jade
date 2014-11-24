@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title= "Ciklum, Test for UFXMarkets"
+    link(rel='stylesheet', href='lib/extjs/resources/css/ext-all.css')
+    link(rel='stylesheet', href='css/style.css')
+    script(type='text/javascript', src='lib/extjs/bootstrap.js')
+    script.
+        Ext.Loader.setConfig({
+            enabled:true
+        })
+    script(type='text/javascript', src='app/app.js')
+  body
+    block content
