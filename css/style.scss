@@ -2,6 +2,7 @@ ul.list-wrap{
 	list-style-type: none;
     padding: 0px;
     margin: 0px;
+    outline: 0;
 
     li {
     	&:first-child {
@@ -15,6 +16,10 @@ ul.list-wrap{
 			font-size: 16px;
 		}
 	}	
+}
+
+.x-panel-default {
+    border-color: #99bce8;
 }
 
 .c-custom {	
@@ -46,14 +51,14 @@ ul.list-wrap{
 
 .c-custom-selected {
 	.c-box {
-		background: url(//ssl.gstatic.com/ui/v1/menu/checkmark.png) no-repeat -5px -3px;
-		background-image: url(//ssl.gstatic.com/ui/v1/menu/checkmark.png) 1x,url(//ssl.gstatic.com/ui/v1/menu/checkmark_2x.png) 2x;
+		background: url(../img/checkmark.png) no-repeat -5px -3px;
+		background-image: url(../img/checkmark.png) 1x,url(../img/checkmark_2x.png) 2x;
 	}
 }	
 
 .c-custom-partly-selected {
 	.c-box {
-		background: url(//ssl.gstatic.com/ui/v1/menu/checkmark-partial.png) no-repeat -5px -3px;
-		background-image: url(//ssl.gstatic.com/ui/v1/menu/checkmark-partial.png) 1x,url(//ssl.gstatic.com/ui/v1/menu/checkmark-partial_2x.png) 2x;
+		background: url(../img/checkmark-partial.png) no-repeat -5px -3px;
+		background-image: url(../img/checkmark-partial.png) 1x,url(../img/checkmark-partial_2x.png) 2x;
 	}	
 }

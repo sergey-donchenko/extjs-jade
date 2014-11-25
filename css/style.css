@@ -38,13 +38,13 @@ ul.list-wrap li span > div, ul.list-wrap li label {
 }
 
 .c-custom-selected .c-box {
-  background: url(//ssl.gstatic.com/ui/v1/menu/checkmark.png) no-repeat -5px -3px;
-  background-image: url(//ssl.gstatic.com/ui/v1/menu/checkmark.png) 1x, url(//ssl.gstatic.com/ui/v1/menu/checkmark_2x.png) 2x;
+  background: url(../img/checkmark.png) no-repeat -5px -3px;
+  background-image: url(../img/checkmark.png) 1x,url(../img/checkmark_2x.png) 2x;
 }
 
 .c-custom-partly-selected .c-box {
-  background: url(//ssl.gstatic.com/ui/v1/menu/checkmark-partial.png) no-repeat -5px -3px;
-  background-image: url(//ssl.gstatic.com/ui/v1/menu/checkmark-partial.png) 1x, url(//ssl.gstatic.com/ui/v1/menu/checkmark-partial_2x.png) 2x;
+  background: url(../img/checkmark-partial.png) no-repeat -5px -3px;
+  background-image: url(../img/checkmark-partial.png) 1x,url(../img/checkmark-partial_2x.png) 2x;
 }
 
 /*# sourceMappingURL=style.css.map */
